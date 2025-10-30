@@ -1,0 +1,74 @@
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 32px;
+}
+h2 {
+	font-family: 'Arial Black', sans-serif;
+	color: yellow;
+	background-color: black;
+	font-style: italic; 
+}
+h2#history{
+	background-color: green;
+}
+p {
+	font-family: 'Georgia', serif;
+
+}
+#mainnav ul{
+	padding:0;
+}
+a:link {
+      color: blue;
+      text-decoration: none;
+}
+a:visited {
+      color: purple;
+}
+a:hover {
+      color: red;
+      text-decoration: underline;
+}
+#mainnav li {
+	display: inline;
+	margin-right: 15px;
+	list-style-type: none;
+}
+img {
+      width: 350px;
+      height: auto;             
+      border: 3px solid black;  
+      padding: 10px;            
+      margin: 10px;             
+      background-color: lightyellow; 
+}
+#pages {
+      font-family: 'Arial Black', sans-serif;
+      display: flex;                 
+      justify-content: space-around; 
+      list-style: none;              
+      padding: 0;
+      margin: 0;
+      background: #F0F045;
+}
+
+li {
+      padding: 20px;  
+}
+.footer {
+  font-style: italic;
+  padding-left: 30px;
+  color: #333;
+}
+svg {
+      width: 100px;
+      height: 100px;
+      fill: steelblue;
+}
+svg:hover {
+      fill: orange;
+}
+
+
+
+
