@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #008080; /* Teal desktop color */
+    font-family: "MS Sans Serif", "Tahoma", sans-serif;
+    color: black;
+  }
+
+  .window {
+    width: 400px;
+    background-color: #C0C0C0;
+    border: 2px solid #808080;
+    box-shadow: inset -2px -2px #FFF, inset 2px 2px #000;
+    margin: 50px auto;
+  }
+
+  .title-bar {
+    background: linear-gradient(to right, #000080, #1084d0);
+    color: white;
+    padding: 4px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .title-bar-buttons {
+    display: flex;
+    gap: 2px;
+  }
+
+  .title-button {
+    width: 16px;
+    height: 16px;
+    background-color: #C0C0C0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px #FFF, inset 1px 1px #000;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: default;
+  }
+
+  .window-content {
+    padding: 10px;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: 12px;
+    background-color: #C0C0C0;
+    border: 2px solid #808080;
+    box-shadow: inset -2px -2px #FFF, inset 2px 2px #000;
+    padding: 2px 6px;
+    margin: 4px;
+    cursor: default;
+  }
+
+  button:active {
+    box-shadow: inset 2px 2px #FFF, inset -2px -2px #000;
+  }

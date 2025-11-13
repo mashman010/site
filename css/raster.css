@@ -1,0 +1,25 @@
+body {
+    background-image: url("../media/snow.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+h1{
+	color: white;
+	position: center;
+	text-align: right; 
+}
+picture img {
+	position: absolute; 
+    top: 0;             
+    left: 0;         
+    height: 100vh;     
+    width: auto;     
+    object-fit: cover
+}
+a img {
+    position: relative;
+    z-index: 1;
+}
