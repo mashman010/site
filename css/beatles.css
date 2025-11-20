@@ -156,4 +156,57 @@ main {
     .home-images {
         flex-direction: row !important;
     }
+     .nav-toggle {
+        display: none;
+    }
+    #mainnav ul {
+        display: flex !important;
+    }
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-toggle svg {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .nav-toggle {
+        display: block;
+    }
+    
+    #mainnav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #mainnav ul.show-nav {
+        display: flex;
+    }
+    
+    #mainnav li {
+        margin: 0;
+        text-align: center;
+        border-bottom: 1px solid #999;
+    }
+}
+.song-of-day {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.song-of-day a {
+    color: #0000cc;
+    text-decoration: underline;
+}
+
+.song-of-day a:hover {
+    color: #cc0000;
 }
